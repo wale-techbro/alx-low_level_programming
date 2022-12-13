@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdio.h>
-
 /**
  *main -This code prints out last digit
  *Return: 0
  */
-
 int main(void)
 {
 int n;
@@ -32,5 +29,5 @@ printf("and is less than 6 and not 0");
 }
 
 printf("\n");
-
 return (0);
+}
