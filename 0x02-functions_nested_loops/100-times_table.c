@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_times_table: print times table with provided number
+ * print_times_table - prints time table with provided number
  * @n: the provided value by the user
  * Return: Always 0 (Success)
  */
@@ -11,7 +11,6 @@ void print_times_table(int n)
 int row;
 int product;
 int column;
-
 if (n < 0 || n >= 15)
 {
 return;
@@ -23,7 +22,7 @@ for (column = 0; column <= n; column++)
 product = (row * column);
 if (column == 0)
 _putchar('0' + product);
- else
+else
 {
 _putchar(',');
 _putchar(' ');
