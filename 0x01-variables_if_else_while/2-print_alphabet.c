@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - returns alphabets
- *
- * Return Always 0 (Success)
+ * main -Returns Alphabets
+ * Return: 0
  */
 int main(void)
 {
